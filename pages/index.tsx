@@ -31,6 +31,16 @@ const Home: NextPage<{animes: IAnimeItem[]}> = () => {
         <main>
           <Content animes={animes} title={"Top Anime"}/>
         </main>
+        <style jsx>{
+        `
+          @media screen and (min-width: 1024px) {
+            main {
+              margin-top: 8vh;
+            } 
+          }
+        `
+        }
+        </style>
       </>
     </Layout>
   )

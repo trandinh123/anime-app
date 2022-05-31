@@ -47,7 +47,7 @@ function Header() {
 			<SearchBar/>
 			<style jsx>{`
 				.container {
-					position: sticky;
+					position: fixed;
 					top: 0;
 					width: 100vw;
 					padding: 1rem .75rem;
